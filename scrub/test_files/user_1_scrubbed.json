@@ -1,0 +1,18 @@
+{
+    "id": 123,
+    "name": "******",
+    "username": "******",
+    "email": "******@arendelle.com",
+    "age": 21,
+    "power": "ice ray",
+    "friends": [
+        {
+            "id": 234,
+            "username": "******"
+        },
+        {
+            "id": 456,
+            "username": "******"
+        }
+    ]
+}

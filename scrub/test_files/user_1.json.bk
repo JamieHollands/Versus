@@ -1,0 +1,18 @@
+{
+    "id": 123,
+    "name": "Elsa",
+    "username": "xXfrozen_princessXx",
+    "EmAiL": "elsa*@arendelle.com",
+    "age": 21,
+    "power": "ice ray",
+    "friends": [
+        {
+            "id": 234,
+            "username": "MagicSnowman32"
+        },
+        {
+            "id": 456,
+            "username": "call_me_anna"
+        }
+    ]
+}

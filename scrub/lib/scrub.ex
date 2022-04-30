@@ -64,9 +64,7 @@ defmodule Scrub do
     if Keyword.keyword?(data) do
       data
       |> scrub_keys()
-      |> Enum.reduce(%{}, fn
-      {k, v = []}, acc -> Map.merge(acc, %{k => scrub?(v)})
-      {k, v}, acc -> Map.merge(acc, %{k => scrub?(v)}) end)
+      |> enum_reduce()
       |> map_keys_and_values()
       |> into_kwl(data)
     else

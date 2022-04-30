@@ -4,13 +4,13 @@
 ### Challenge:
 
 Create a function called **_scrub_** that sanitizes data by replacing
-> name "a_name"  *with* name "******"
+> name "a_name"  *with* name \"******\"
 
-> username "a_username" *with* username "******"
+> username "a_username" *with* username \"******\"
 
-> password "a_password *with* password "******"
+> password "a_password *with* password \"******\"
 
-> email "email@website.com" *with* "******@website.com"
+> email "email@website.com" *with* \"******@website.com\"
 ***
 ### Dependencies:
 * Erlang
